@@ -40,6 +40,7 @@
     height: 280px;
     cursor: pointer;
   }
+  
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -53,6 +54,11 @@
 }
 .servicesText:hover {
     border: 1px solid #008000;
+}
+
+/* portfolio styling */
+.card-img-top {
+    height: 55rem;
 }
 
 /* social media icons styling */
