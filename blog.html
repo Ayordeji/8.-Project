@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ayordeji's Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- bootstrap CDN -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ayordeji</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">My Blogs</a>
+                    </li>
+
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<!-- Banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-l2 hero-text">
+                <h2 class="hero_title">Welcome to my Blog</h2>
+                <p class="hero_desc">I Code I Design I Blog</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Form -->
+    
+      <div class="top-section mt-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Write your Own Blog</h1>
+            <div class="row">
+                <div class="col-md-5 m-auto">
+                    <form action="" id="post-form">
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Blog Title</label>
+                            <input type="text" class="form-control" id="title"
+                                placeholder="Enter your blog title">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Blog Content</label>
+                            <textarea class="form-control" id="body" rows="3" placeholder="Your Blog contents...."></textarea>
+                        </div>
+
+                        <div class="d-flex">
+                            <button class="btn btn-primary m-auto" type="submit" >Create Blog</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Post Page -->
+    <div class="card-section mt-5">
+        <div class="container">
+            <div class="row" id="post-holder">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>1</p>
+                            <h6 id="post-title">Blog Title</h6>
+                            <p id="post-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cupiditate laborum,
+                                soluta debitis iure dolore iusto adipisci optio ipsam, sint amet dolorem possimus
+                                voluptatum. Voluptate cumque possimus autem alias maiores.</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Update</button>
+                                <button class="btn btn-success">View</button>
+                                <button class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://web.facebook.com/ayordeji.eluyemi" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/deji_yem/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/AyordejiE" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ayodeji-eluyemi-8120131a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Ayordeji" target="_blank"><i class="fab fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+   
+
+<!-- Load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    <script src="script/test.js"></script>
+
+
+<!--j.query -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+    
+<!--popper -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    
+<!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+      
+
+</body>
+
+</html>
